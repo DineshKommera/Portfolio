@@ -62,7 +62,8 @@ const Portfolio = () => {
       <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-80 shadow-lg z-10">
         <nav className="flex justify-between container mx-auto px-6 py-2">
           <a href='./' style={{ cursor: 'pointer' }}>
-            <img src="portfolio-logo.svg" className="p-0 m-0" alt="Portfolio Logo" style={{width: '40px', height: '40px'}} />
+            {/* <img src="portfolio-logo.svg" className="p-0 m-0" alt="Portfolio Logo" style={{width: '40px', height: '40px'}} /> */}
+            <h2 className='text-3xl font-bold text-black'>DK.</h2>
           </a>
           <div>
             <ul className="flex justify-center space-x-6">
